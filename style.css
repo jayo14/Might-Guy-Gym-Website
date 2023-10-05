@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    max-width: 120%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    width: 100.3%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #414244;
+    position: fixed;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    margin-left: -50px;
+    margin-top: 5px;
+}
+
+.biceps-logo {
+    margin-right: -80px;
+    margin-top: -25px;
+}
+
+
+#logo {
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #05ff75;
+    word-spacing: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav a {
+    padding: 0 15px 0 15px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: ease .4s;
+    cursor: pointer;
+}
+
+#buttons-join {
+    background-color: #34aa69;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    border: transparent;
+    font-family: Rajdhani, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease .4s;
+}
+
+nav a:hover {
+    color: #D89C43;
+}
+
+#buttons-join:hover {
+    background-color: #D89C43;
+}
+
+.head-page {
+    background-image: url(https://ik.imagekit.io/mshcgnjju/black-stone-texture-dark-slate-background.jpg?updatedAt=1695742537946);
+    margin-top: -90px;
+    background-size: 210vh;
+}
+
+.landing-page {
+    background-color: transparent;
+    background-image: radial-gradient(at bottom right, #292D3366 0%, #292D33 100%);
+    height: 150vh;
+    padding-top: 5%;
+    
+}
+
+
+#image{
+    width: auto;
+    height: 60%;
+    float: right;
+    padding-top: 12em;
+    padding-right: 30px;
+}
+
+
+.landing {
+    margin-top: 12%;
+    margin-left: 3em;
+    margin-bottom: -55%;
+}
+
+.border-text {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #D89C43 solid 1px;
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    background: transparent;
+    font-weight: 700;
+}
+
+.border-text span {
+    margin-left: 1em;
+}
+
+.landing h1 {
+    color: white;
+    max-width: 8em;
+    font-family: Rajdhani, sans-serif;
+    margin-top: 20px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+#desc {
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-size: 28px;
+    line-height: 1.1em;
+    max-width: 18em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#buttons-discover {
+    background-color: #34aa69;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    border: transparent;
+    font-family: Rajdhani, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease .4s;
+    margin-top: 30px;
+}
+
+#buttons-discover:hover {
+    background-color: #D89C43;
+}
+
+.wave-shape {
+    padding-top: 17em;
+}
+
+.wave-shape-fill {
+    fill: #fff;
+    transform-origin: center;
+    transform: rotateY(0deg);
+}
+
+
+/*ABOUT US*/
+.about-us {
+    display: flex;
+    margin-bottom: 100%;
+}
+
+.about-us h3 {
+    color: #D89C43 ;
+}
